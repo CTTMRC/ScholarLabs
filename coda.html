@@ -1,0 +1,10 @@
+<!doctype html><html lang="it"><meta charset="utf-8"><title>Coda Scholar Labs</title>
+<style>
+body{max-width:680px;margin:8vh auto;padding:0 22px;font:17px/1.55 system-ui;color:#193733;background:#f9fbf8}h1{font:38px Georgia,serif}textarea{box-sizing:border-box;width:100%;padding:14px;border:1px solid #899e94;border-radius:8px;font:inherit}button{font:inherit;border:1px solid #71877c;background:white;color:inherit;border-radius:6px;padding:8px 14px;margin:6px 4px 6px 0;cursor:pointer}#start{background:#205848;color:white}button:disabled{opacity:.55}#status{min-height:2em}
+</style><h1>Coda Scholar Labs</h1>
+<label for="queries">Domande (una per riga) o array JSON</label><textarea id="queries" rows="8"></textarea>
+<button id="start">Avvia o riprendi</button><button id="stop" disabled>Pausa</button><button id="save">Scarica Markdown</button>
+<label>Carica JSON o TXT <input id="file" type="file" accept=".json,.txt"></label> <button id="clear">Cancella risultati salvati</button>
+<p id="status" role="status"></p>
+<p>Lascia aperta questa pagina durante la ricerca. Nel JSON, trigger_keywords attiva i follow-up se almeno una parola compare nella risposta principale. Senza parole chiave vengono eseguiti tutti. La coda conserva i risultati su questo computer e salta le domande già completate. Il download include le risposte salvate per le domande elencate sopra.</p>
+<script src="coda.js"></script></html>

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "Q1",
+    "query": "Has any experimental spray-drying study embedded a mechanistic equation for atomization, droplet shrinkage, or particle formation in a data-fitted structural causal model, causal Bayesian network, or process graph, and then tested its predictions after deliberately changing a real dryer setting? Which settings and responses were tested on physical runs outside calibration? Include food and chemical applications as well as pharmaceutical spray drying.",
+    "trigger_keywords": [
+      "experimental",
+      "validation",
+      "intervention"
+    ],
+    "follow_ups": [
+      "Which spray-drying experiments tested a mechanistic causal model by changing a dryer setting in runs held out from model fitting?"
+    ]
+  },
+  {
+    "id": "Q2",
+    "query": "Which spray-drying studies use a grey-box model, hybrid digital twin, probabilistic process model, or model-based experimental design to link operating settings, wet droplets, and dry particle properties? Look for studies that fit or constrain a physical equation with process data and then predict the response to a new physical experiment. Include papers that do not use the terms causal inference or Bayesian network.",
+    "trigger_keywords": [
+      "grey-box",
+      "gray-box",
+      "hybrid",
+      "validation"
+    ],
+    "follow_ups": [
+      "Which grey-box spray-drying models predicted measured particle properties in new dryer runs after calibration?"
+    ]
+  },
+  {
+    "id": "Q3",
+    "query": "In experimental engineering or manufacturing, which studies kept the same causal graph, input variables, and calibration data but compared empirical node equations with first-principles or grey-box equations? Did they compare predictions under new physical interventions, or only prediction on historical data and simulations? What improved, and under which conditions did the physical constraints fail?",
+    "trigger_keywords": [
+      "empirical",
+      "first-principles",
+      "first principles",
+      "intervention"
+    ],
+    "follow_ups": [
+      "Which manufacturing experiments compared empirical and physics-based node equations on new operating conditions while keeping the causal graph, inputs, and training data fixed?"
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Coda Scholar Labs",
+  "version": "1.1.1",
+  "description": "Esegue una lista di domande su Scholar Labs e salva i risultati in Markdown.",
+  "permissions": [
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://scholar.google.com/*"
+  ],
+  "action": {
+    "default_title": "Apri Coda Scholar Labs"
+  },
+  "background": {
+    "service_worker": "open.js"
+  }
+}
